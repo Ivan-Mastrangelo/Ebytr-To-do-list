@@ -5,11 +5,14 @@
         "es2021": true
     },
     "extends": [
-        "standard"
+        "airbnb-base"
     ],
     "parserOptions": {
         "ecmaVersion": "latest"
     },
+    "ignorePatterns": ["**/models/*.js"],
     "rules": {
+        "no-console": "off",    
+        "comma-dangle": ["error", "always-multiline"]
     }
 }
