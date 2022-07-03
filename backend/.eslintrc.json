@@ -13,6 +13,7 @@
     "ignorePatterns": ["**/models/*.js"],
     "rules": {
         "no-console": "off",    
-        "comma-dangle": ["error", "always-multiline"]
+        "comma-dangle": ["error", "always-multiline"],
+        "treatUndefinedAsUnspecified": false
     }
 }

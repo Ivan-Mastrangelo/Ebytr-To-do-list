@@ -17,7 +17,7 @@ const getTaskById = async (id) => {
 
 const updateTask = async (body, id) => {
   const { title, description } = body;
-  const updatedTask = await Task.update(
+  const [updatedTask] = await Task.update(
     { title, description },
     { where: { id } },
   );

@@ -6,3 +6,5 @@ const Task = (sequelize, DataTypes) => {
 
   return Task;
 };
+
+module.exports = Task;
