@@ -1,19 +1,19 @@
 {
     "env": {
         "browser": true,
-        "commonjs": true,
         "es2021": true
     },
     "extends": [
         "airbnb-base"
     ],
     "parserOptions": {
-        "ecmaVersion": "latest"
+        "ecmaVersion": "latest",
+        "sourceType": "module"
     },
-    "ignorePatterns": ["**/models/*.js"],
     "rules": {
-        "no-console": "off",    
-        "comma-dangle": ["error", "always-multiline"],
-        "treatUndefinedAsUnspecified": false
+        "no-console": "off",
+        "consistent-return": "off"
+        // "comma-dangle": ["error", "always-multiline"],
+        // "treatUndefinedAsUnspecified": false
     }
 }
