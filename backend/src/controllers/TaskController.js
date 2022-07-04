@@ -1,6 +1,6 @@
 const TasksService = require('../services/TasksService');
 
-const creatTask = async (req, res, next) => {
+const createTask = async (req, res, next) => {
   try {
     const { title, description } = req.body;
     const newTask = await TasksService.createTask({ title, description });
@@ -51,7 +51,7 @@ const deleteTask = async (req, res, next) => {
 };
 
 module.exports = {
-  creatTask,
+  createTask,
   getAllTasks,
   getTaskById,
   updateTask,
