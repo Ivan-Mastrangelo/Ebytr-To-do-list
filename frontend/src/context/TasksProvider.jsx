@@ -58,7 +58,3 @@ TasksProvider.propTypes = {
 };
 
 export default TasksProvider;
-
-// const getTasks = async () => {
-//   const result = await fetch(endpoint).then((response) => response.json());
-//   console.log(result);
