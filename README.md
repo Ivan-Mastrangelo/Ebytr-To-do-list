@@ -1,7 +1,9 @@
 ## Ebytr-To-do-list
 
 Protótipo de uma lista de tarefas editável com uso de front e backend conectado ao banco de dados para atender a necessidade da empresa Ebytr, que solicitou um App para que seu quadro de funcionários possa se organizar de uma forma mais prática.
----
+
+### OBS
+O projeto ainda não está terminado, faltando toda sua estilização e a funcionalidade do botão Edit.
 
 Para rodar o programa é necessário ter os seguintes programas instalados:
  - Git; 
