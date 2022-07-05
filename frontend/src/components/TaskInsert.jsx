@@ -16,7 +16,7 @@ function TaskInsert() {
   };
 
   return (
-    <section>
+    <section className="insertTask">
       <input
         value={newTask}
         onChange={handleChange}

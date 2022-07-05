@@ -38,7 +38,23 @@
 }
 
 .header {
-  display: flex;
-  align-items: center;
+  margin-left: 9.5%;
 }
 
+.insertTask {
+margin-left: 10%;
+margin-bottom: 1%;
+}
+
+.list {
+  margin-left: 8.5%;
+}
+
+.taskText {
+  padding: 1%;
+}
+
+button {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}

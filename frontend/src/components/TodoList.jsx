@@ -8,10 +8,10 @@ function TodoList() {
 
   return (
     <main>
-      <section>
+      <section className="list">
         {tasksList.map((task) => (
           <div key={task.id}>
-            <span>{task.title}</span>
+            <span className="taskText">{task.title}</span>
             <button type="button" onClick={() => editTask(task.id)}>
               Edit
             </button>
