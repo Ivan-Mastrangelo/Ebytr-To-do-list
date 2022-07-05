@@ -24,13 +24,23 @@ Instalar as dependências do projeto:
 ```
   npm install
   ```
-Entrar na pasta backend
+Será necessário a pessoa configurar as variávei de ambiente do backend para conectar tanto o backend ao banco, como ao frontend.
+
+Entre na pasta backend
 ```
 cd backend
 ```
+Na raiz do backend crie o arquivo .env e substitua usuário, senha e o nome do banco de dados, mantendo HOSTNAME e PORT como estão, ao inserir este script.
+```
+MYSQL_USER=usuário_do_BD
+MYSQL_PASSWORD=suasenha
+MYSQL_DATABASE=nome_do_seu_BD
+HOSTNAME=localhost
+PORT=3001
+```
 Iiniciar o servidor do backend:
 ```
-  npm run start
+  npm start
   ```
 Sair da pasta e entrar na pasta frontend
 ```
